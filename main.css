@@ -1,9 +1,39 @@
 body{
 
 background-color: lightblue;
+text-align: center;
 }
+
 
 header{
     color: white;
     font-size: larger;
+    text-align: center; 
+}
+
+img {
+    height: 200;
+    length: 200;
+    img alignment-baseline: baseline;
+}
+
+.img1 {
+    position: absolute;
+    display: block;
+    left: 200px;
+    z-index: 1;
+}
+
+.img2 {
+    z-index: 2;
+    position: absolute;
+    top: 170px;
+    left: 525px;
+}
+
+.img3 {
+    z-index: 2;
+    position: absolute;
+    top: 300px;
+    left: 700px;
 }
