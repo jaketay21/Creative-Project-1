@@ -11,12 +11,6 @@ header{
     text-align: center; 
 }
 
-img {
-    height: 200;
- 
-    
-}
-
 .img1 {
     position: absolute;
     display: block;
@@ -28,13 +22,16 @@ img {
 .img2 {
     z-index: 2;
     position: absolute;
-    top: 170px;
-    left: 525px;
 }
 
 .img3 {
     z-index: 2;
     position: absolute;
-    top: 300px;
-    left: 700px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
