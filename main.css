@@ -15,15 +15,17 @@ header{
     position: absolute;
     display: block;
     width: 100%;
-    height: auto;
+    height: 1000;
+    
     z-index: 1;
 }
 
 .img2 {
     z-index: 2;
     position: absolute;
+    hieght: 100%;
+    width: 100%;
 }
-
 .img3 {
     z-index: 2;
     position: absolute;
