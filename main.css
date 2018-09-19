@@ -23,13 +23,9 @@ header{
 .img2 {
     z-index: 2;
     position: absolute;
-<<<<<<< HEAD
     hieght: 100%;
     width: 100%;
-=======
->>>>>>> d8187a7ebd076ebee4ce845078201838132a36d4
 }
-
 .img3 {
     z-index: 2;
     position: absolute;
