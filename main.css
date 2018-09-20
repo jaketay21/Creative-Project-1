@@ -11,26 +11,56 @@ header{
     text-align: center; 
 }
 
+img:hover {-webkit-filter: brightness(150%); }
+
 .img1 {
     position: absolute;
     display: block;
-    width: 100%;
-    height: 1000;
-    
+    left: 160px;
     z-index: 1;
 }
 
 .img2 {
     z-index: 2;
     position: absolute;
-    hieght: 100%;
-    width: 100%;
+    left: 450px;
+    top: 250px;
 }
-.img3 {
-    z-index: 2;
+.img3a {
+    z-index: 4;
     position: absolute;
+    left: 750px;
+    top: 300px;
 }
 
+.img3b {
+    z-index: 4;
+    position: absolute;
+    left: 600px;
+    top: 550px;
+}
+
+.img4 {
+    z-index: 3;
+    position: absolute;
+    left: 475px;
+    top: 315px;
+}
+
+
+.img5 {
+    z-index: 3;
+    position: absolute;
+    left: 725px;
+    top: 405px;
+}
+
+.img6 {
+    z-index: 3;
+    position: absolute;
+    left: 925px;
+    top: 435px;
+}
 .center {
     display: block;
     margin-left: auto;
