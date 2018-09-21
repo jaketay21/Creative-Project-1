@@ -16,6 +16,7 @@ img:hover {-webkit-filter: brightness(150%); }
 .img1 {
     position: absolute;
     display: block;
+
     left: 160px;
     z-index: 1;
 }
@@ -23,8 +24,11 @@ img:hover {-webkit-filter: brightness(150%); }
 .img2 {
     z-index: 2;
     position: absolute;
+
+
     left: 450px;
     top: 250px;
+
 }
 .img3a {
     z-index: 4;

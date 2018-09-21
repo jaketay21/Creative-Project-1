@@ -9,35 +9,55 @@
     <h1>Interactive Cell</h1>
     
     </header>
+    <script>
+    function out() {
+        document.getElementById("displaytitle").innerHTML = "";
+    }
+    function membrane() {
+        document.getElementById("displaytitle").innerHTML = "Cell Membrane";
+    };
+    function mitochondrion() {
+        document.getElementById("displaytitle").innerHTML = "Mitochondrion";
+    };
+    function nucleus() {
+        document.getElementById("displaytitle").innerHTML = "Nucleus";
+    };
+    function er() {
+        document.getElementById("displaytitle").innerHTML = "Endoplasmic Recticulum";
+    };
+    function golgi() {
+        document.getElementById("displaytitle").innerHTML = "Golgi Apparatus";
+    };
+    function vesicle() {
+        document.getElementById("displaytitle").innerHTML = "Vesicle";
+    };
+    </script>
     <body>
         <div class="center">
-        <a href="https://stackoverflow.com/questions/10180791/how-to-make-text-appear-on-top-of-the-image-when-hovering">
-        <img class="img1" src="https://lh3.googleusercontent.com/wrsQ0eiM44qErO0Szy0928HIksx2wxqbOk99bpAX--MSzUpz0ETNx4bpvmg7Wly9kWRtAGLutdcah0KZSmy2SuhRvyKqOv0QeAIzUwRBGuGRSaD3DiX36cctd0tSvIxW5hIC3Tf5hG65rvtMR9AzbFIzwF_X-Lq6imbuDy1m_GmPgSkTeLrKmq-onHVZp-aXoFbpXZwGH3K-XJnSi_DPll0YFBj-uQpZVnDN6C447kDt4PIjcoBEdhKTpQjpJts_Fe8JRqBlVEIj_IDlElfmebcEfv0fyoufqD5_xw03RqaR6tJ3jsArWcj3lCV76EiVAoLopK8lp-kupTLbqzkh73BqIIE0QG87x9kNqXpIIpVjbQc8KNbNy15pJIejD4gDhMluArH225o_X4dDLk1l3OKHG-GqmZsOkfJeSR-0uJ-YgmOsEH5enRryCrVbdUE55c7SnwCdPPjofWcjPf-M2ZQPSTTwIx3HTXQdBQmfNvl0e-KNPxBOj5ei0TOP2SaE8GPQRCgpX2Xv5uq9YioYXUuaRLTbmHyNLDbbavK-od1P9IGdwKCr4bjkQD5KVtrozqV2CcyRreVxcPug7965AAJlRx4TBZnumJk34pwfIppBMejFDwzfImwQpQnkqaI=w2232-h1488-no"
+        <a id="membrane" href="https://stackoverflow.com/questions/10180791/how-to-make-text-appear-on-top-of-the-image-when-hovering">
+        <img class="img1" onmouseover="membrane()" onmouseout="out()" src="https://lh3.googleusercontent.com/wrsQ0eiM44qErO0Szy0928HIksx2wxqbOk99bpAX--MSzUpz0ETNx4bpvmg7Wly9kWRtAGLutdcah0KZSmy2SuhRvyKqOv0QeAIzUwRBGuGRSaD3DiX36cctd0tSvIxW5hIC3Tf5hG65rvtMR9AzbFIzwF_X-Lq6imbuDy1m_GmPgSkTeLrKmq-onHVZp-aXoFbpXZwGH3K-XJnSi_DPll0YFBj-uQpZVnDN6C447kDt4PIjcoBEdhKTpQjpJts_Fe8JRqBlVEIj_IDlElfmebcEfv0fyoufqD5_xw03RqaR6tJ3jsArWcj3lCV76EiVAoLopK8lp-kupTLbqzkh73BqIIE0QG87x9kNqXpIIpVjbQc8KNbNy15pJIejD4gDhMluArH225o_X4dDLk1l3OKHG-GqmZsOkfJeSR-0uJ-YgmOsEH5enRryCrVbdUE55c7SnwCdPPjofWcjPf-M2ZQPSTTwIx3HTXQdBQmfNvl0e-KNPxBOj5ei0TOP2SaE8GPQRCgpX2Xv5uq9YioYXUuaRLTbmHyNLDbbavK-od1P9IGdwKCr4bjkQD5KVtrozqV2CcyRreVxcPug7965AAJlRx4TBZnumJk34pwfIppBMejFDwzfImwQpQnkqaI=w2232-h1488-no"
             height="700" length="700"/></a>
         <a href="https://stackoverflow.com/questions/10180791/how-to-make-text-appear-on-top-of-the-image-when-hovering">
-        <img class="img2" src="https://lh3.googleusercontent.com/qIyg0xVUuyTnEC3zU5_WVy7MtTynxe4Q7mffWq3kRwkJzaK3oJ9W9O_Yf14QQwH3Llgq9uq-TGSSfI_qrjplU-kDoh4_tdj-aXlvigFjl7aNY_uAbqQYDbp8KZQMzMG-bAsxirlu0PGYxvESoqpG6dNMx6w_Sha_zTQj9jAPt3JObgDlR0D5Ojr43vVnlBeNzrIQor_dSVkU04Q-Wx-XmuJD2YQlyBWXKe_5MTnoL0zIj0JGzxbvY80hEuwRsRPiZ_FG5DreDJ2MljwTGgLiEj-AasHvJ2-AV1n7DJQGpRQSZSiT7tF079gip1Z4DvPm--xJ66GZqt_yRaNaFQeDnoBsObXrSCliy_xgHG2NWjL_AMJpXoNX3RaG_iFQ6xBLUiIV7Zzr1gKdY4CaZAxXGvwu6QMiiRMW6Iew19PeL-MlJabvE1v9yUD_KRbk-ifqeKhvxGpMPhAbatggdG6LrIgTesCoCi3oRotrzY_xZISL_PMFM-2cF3552uiE9Pe7gUliTFMjIiRVPDMY43p-S12WwslQgMU7Bl33v7j4yL_vq46cRgSPU4LAqoskiyr5IiLBWN0mx3C8nZVgj8tsHFE7iLoWZzvcqvi4TUw4aAn7vdtOPCZMqD540hOvUb4=w2200-h1468-no"
+        <img class="img2" onmouseover="nucleus()" onmouseout="out()" src="https://lh3.googleusercontent.com/qIyg0xVUuyTnEC3zU5_WVy7MtTynxe4Q7mffWq3kRwkJzaK3oJ9W9O_Yf14QQwH3Llgq9uq-TGSSfI_qrjplU-kDoh4_tdj-aXlvigFjl7aNY_uAbqQYDbp8KZQMzMG-bAsxirlu0PGYxvESoqpG6dNMx6w_Sha_zTQj9jAPt3JObgDlR0D5Ojr43vVnlBeNzrIQor_dSVkU04Q-Wx-XmuJD2YQlyBWXKe_5MTnoL0zIj0JGzxbvY80hEuwRsRPiZ_FG5DreDJ2MljwTGgLiEj-AasHvJ2-AV1n7DJQGpRQSZSiT7tF079gip1Z4DvPm--xJ66GZqt_yRaNaFQeDnoBsObXrSCliy_xgHG2NWjL_AMJpXoNX3RaG_iFQ6xBLUiIV7Zzr1gKdY4CaZAxXGvwu6QMiiRMW6Iew19PeL-MlJabvE1v9yUD_KRbk-ifqeKhvxGpMPhAbatggdG6LrIgTesCoCi3oRotrzY_xZISL_PMFM-2cF3552uiE9Pe7gUliTFMjIiRVPDMY43p-S12WwslQgMU7Bl33v7j4yL_vq46cRgSPU4LAqoskiyr5IiLBWN0mx3C8nZVgj8tsHFE7iLoWZzvcqvi4TUw4aAn7vdtOPCZMqD540hOvUb4=w2200-h1468-no"
             height="200" length="200"/></a>
         <a href="https://stackoverflow.com/questions/10180791/how-to-make-text-appear-on-top-of-the-image-when-hovering">
-        <img class="img3a" src="https://lh3.googleusercontent.com/p81XupdoIuzVIn220PGlWHcVZULiSdS9HlHgDb9tCceRttdtPOKxy5EzgtRn-_umeCNMxuOneWt2VxbkuOxOPOQEsEqAm4oLqjuSSsa7RojFyS2OkhJYrdyVKQ7LtWJ5lm7DHBDuc2vyYAr_eepfZ-BmEpGkZ1y_CsZtcHVXG6dwwXvKLdtA-Z80iVmQAZ1C5BWsFCecGISEGvFKQqztnSLx-jKJ580z2HiaJcDIUfqUQY-AdVE-IdyBshArzq0eC9hRTcSHCzOMJnNIXacG_EjL94e_0WHP6FA_KRSN6QowfvV9UktvySYbGYlZa_esIp5LMidqP7ULounZWvPd-JXqTA-h1PeeCQGPN_8Ldci74NnVcTP_f-efbdkLFI1tzyMqPEX1tNCkW3FhUkruymSKsog7_qvs-qkKoYsr3xXMhGycHQYHpooprJUnmvC-Hb-Li9WcCRkP-fzwSKXI4Cnw2SLdMNtRFVNevc1kUEr2HRvohOjzqE0OeRfIXxRPVTYOQ3tB6OgoC2A491iPOHQqLlvtQWSz1vbwCJEe5GCV5lm_D7wB5JQB6KpKsBbUr0Next8yaJLleNgjTopX86ZeBtF9-_nrOtVH9R5Jz5ED6ugA0eM9OItOii-o6jw=w2200-h1468-no"
+        <img class="img3a" onmouseover="mitochondrion()" onmouseout="out()" src="https://lh3.googleusercontent.com/p81XupdoIuzVIn220PGlWHcVZULiSdS9HlHgDb9tCceRttdtPOKxy5EzgtRn-_umeCNMxuOneWt2VxbkuOxOPOQEsEqAm4oLqjuSSsa7RojFyS2OkhJYrdyVKQ7LtWJ5lm7DHBDuc2vyYAr_eepfZ-BmEpGkZ1y_CsZtcHVXG6dwwXvKLdtA-Z80iVmQAZ1C5BWsFCecGISEGvFKQqztnSLx-jKJ580z2HiaJcDIUfqUQY-AdVE-IdyBshArzq0eC9hRTcSHCzOMJnNIXacG_EjL94e_0WHP6FA_KRSN6QowfvV9UktvySYbGYlZa_esIp5LMidqP7ULounZWvPd-JXqTA-h1PeeCQGPN_8Ldci74NnVcTP_f-efbdkLFI1tzyMqPEX1tNCkW3FhUkruymSKsog7_qvs-qkKoYsr3xXMhGycHQYHpooprJUnmvC-Hb-Li9WcCRkP-fzwSKXI4Cnw2SLdMNtRFVNevc1kUEr2HRvohOjzqE0OeRfIXxRPVTYOQ3tB6OgoC2A491iPOHQqLlvtQWSz1vbwCJEe5GCV5lm_D7wB5JQB6KpKsBbUr0Next8yaJLleNgjTopX86ZeBtF9-_nrOtVH9R5Jz5ED6ugA0eM9OItOii-o6jw=w2200-h1468-no"
             height="130" length="130"/></a>
         <a href="https://stackoverflow.com/questions/10180791/how-to-make-text-appear-on-top-of-the-image-when-hovering">
-        <img class="img3b" src="https://lh3.googleusercontent.com/p81XupdoIuzVIn220PGlWHcVZULiSdS9HlHgDb9tCceRttdtPOKxy5EzgtRn-_umeCNMxuOneWt2VxbkuOxOPOQEsEqAm4oLqjuSSsa7RojFyS2OkhJYrdyVKQ7LtWJ5lm7DHBDuc2vyYAr_eepfZ-BmEpGkZ1y_CsZtcHVXG6dwwXvKLdtA-Z80iVmQAZ1C5BWsFCecGISEGvFKQqztnSLx-jKJ580z2HiaJcDIUfqUQY-AdVE-IdyBshArzq0eC9hRTcSHCzOMJnNIXacG_EjL94e_0WHP6FA_KRSN6QowfvV9UktvySYbGYlZa_esIp5LMidqP7ULounZWvPd-JXqTA-h1PeeCQGPN_8Ldci74NnVcTP_f-efbdkLFI1tzyMqPEX1tNCkW3FhUkruymSKsog7_qvs-qkKoYsr3xXMhGycHQYHpooprJUnmvC-Hb-Li9WcCRkP-fzwSKXI4Cnw2SLdMNtRFVNevc1kUEr2HRvohOjzqE0OeRfIXxRPVTYOQ3tB6OgoC2A491iPOHQqLlvtQWSz1vbwCJEe5GCV5lm_D7wB5JQB6KpKsBbUr0Next8yaJLleNgjTopX86ZeBtF9-_nrOtVH9R5Jz5ED6ugA0eM9OItOii-o6jw=w2200-h1468-no"
+        <img class="img3b" onmouseover="mitochondrion()" onmouseout="out()" src="https://lh3.googleusercontent.com/p81XupdoIuzVIn220PGlWHcVZULiSdS9HlHgDb9tCceRttdtPOKxy5EzgtRn-_umeCNMxuOneWt2VxbkuOxOPOQEsEqAm4oLqjuSSsa7RojFyS2OkhJYrdyVKQ7LtWJ5lm7DHBDuc2vyYAr_eepfZ-BmEpGkZ1y_CsZtcHVXG6dwwXvKLdtA-Z80iVmQAZ1C5BWsFCecGISEGvFKQqztnSLx-jKJ580z2HiaJcDIUfqUQY-AdVE-IdyBshArzq0eC9hRTcSHCzOMJnNIXacG_EjL94e_0WHP6FA_KRSN6QowfvV9UktvySYbGYlZa_esIp5LMidqP7ULounZWvPd-JXqTA-h1PeeCQGPN_8Ldci74NnVcTP_f-efbdkLFI1tzyMqPEX1tNCkW3FhUkruymSKsog7_qvs-qkKoYsr3xXMhGycHQYHpooprJUnmvC-Hb-Li9WcCRkP-fzwSKXI4Cnw2SLdMNtRFVNevc1kUEr2HRvohOjzqE0OeRfIXxRPVTYOQ3tB6OgoC2A491iPOHQqLlvtQWSz1vbwCJEe5GCV5lm_D7wB5JQB6KpKsBbUr0Next8yaJLleNgjTopX86ZeBtF9-_nrOtVH9R5Jz5ED6ugA0eM9OItOii-o6jw=w2200-h1468-no"
             height="130" length="130"/></a>
         <a href="https://stackoverflow.com/questions/10180791/how-to-make-text-appear-on-top-of-the-image-when-hovering">
-        <img class="img4" src="https://lh3.googleusercontent.com/JY8QKYdK3EscGRvdrD9o1AIBIVAKjDZkpg9IINFGVEflLrp3BaQZ5GHjbVTkZsaWhRZ1yTEb23QZN42LmSUHCzfENjLlrMlhpFwwsOkohe2CscyBuKrUIIXesij-pZAQfHQ1U0lOYvBOvkCnq8bhcU612hOZaqpPa1jjV0Dh5-f5Kse29pfPqCi596bSCZw3jVbTI7SMmaZe4UyToq2Wfat3iUDsrSIDTABO7hdtIXkZ4tPevTfvd5B01yqcZmDSZW88bdxBFwbivozOpCjCiurZsdsSAnDExcThENEZy6j1VMWKxrRmYknBisR8nWkGkk-lKWNRogZGFFRyxNv_kzsOUJLFnkmO9Ra6BMwNhi1s18M8UTKLbnhTKqo3Pqw6376RJyCCewbGTTpDK-BxQ38vZwpG5AtkieLR6lAeZQaCya4X7vHGdm41TZb6acYXsbQ8Lotemq6xhljji6OcfDoXqU29_HlcUVCS6H53pgp1W6BpSpOhC8g3dPbsjL4saoMbPPVtTt27pM2uRHjs6pR6aY_ptbWZa-uAexhhQ_IL13CHuiWAa0rEns3c4SDnWpem0-lsGcs1Jk-FxIv1wWMN0hTjxbdY8mUs83lGsIlw924gF536yrNnU88vfM8=w2200-h1468-no"
+        <img class="img4" onmouseover="er()" onmouseout="out()" src="https://lh3.googleusercontent.com/JY8QKYdK3EscGRvdrD9o1AIBIVAKjDZkpg9IINFGVEflLrp3BaQZ5GHjbVTkZsaWhRZ1yTEb23QZN42LmSUHCzfENjLlrMlhpFwwsOkohe2CscyBuKrUIIXesij-pZAQfHQ1U0lOYvBOvkCnq8bhcU612hOZaqpPa1jjV0Dh5-f5Kse29pfPqCi596bSCZw3jVbTI7SMmaZe4UyToq2Wfat3iUDsrSIDTABO7hdtIXkZ4tPevTfvd5B01yqcZmDSZW88bdxBFwbivozOpCjCiurZsdsSAnDExcThENEZy6j1VMWKxrRmYknBisR8nWkGkk-lKWNRogZGFFRyxNv_kzsOUJLFnkmO9Ra6BMwNhi1s18M8UTKLbnhTKqo3Pqw6376RJyCCewbGTTpDK-BxQ38vZwpG5AtkieLR6lAeZQaCya4X7vHGdm41TZb6acYXsbQ8Lotemq6xhljji6OcfDoXqU29_HlcUVCS6H53pgp1W6BpSpOhC8g3dPbsjL4saoMbPPVtTt27pM2uRHjs6pR6aY_ptbWZa-uAexhhQ_IL13CHuiWAa0rEns3c4SDnWpem0-lsGcs1Jk-FxIv1wWMN0hTjxbdY8mUs83lGsIlw924gF536yrNnU88vfM8=w2200-h1468-no"
             height="200" length="200"/></a>
         <a href="https://stackoverflow.com/questions/10180791/how-to-make-text-appear-on-top-of-the-image-when-hovering">
-        <img class="img5" src="https://lh3.googleusercontent.com/dqoWPm5oUJBa2lKf566o9xgbcoFvdy4QjuakzPy5QfyZOIWmEwNFegH7VsVIZwrYr83iYk7EzdmQvttmzpqvqQ8EzXz65NudqdWxuA47R1B9YZfomgyTY9xVNtShhMT_2NFqYgfFVCYowDnlFrSZmiyBwTCLaIgQqyuzQ3ormHYo2AShtAzEyR1gF8lOUqUoeJ4nVAoK_p8-D-AJV9Cdvfxj7qIDx6PwkN3HdjuQnvb6uzMYRI8KWYvULbOK8bx6RkyDpYXNQja1z9yQMhzqFQ-CMYBi3RPuTYeV4Ymf7S4OSTtrnDkTS6cNNjDdKPFykATgE9wj_8bv46hQtzErYkTudOWmeBWs2ToPlyegIQTyubmt7AAplU4W3Mx8cgPpGDojGhPPfL-tXRW0cBz-aDk-oWFhM93KMDhfxoZrdFAJ1MAGaugTcWKGori8JZ-GLhjhRNyEMq-43b79yMMDN2JsWoPZ8NmL5nSCrWk06WlmBnz_aq-PXXqjxXmeCQbGtHYRhwOP_nlL7hTTBEip7LE2dzVxHwhsLKGYAWl1_yp_f7-_fMdqYJNcpgnwR3TuOpRjN61VQwV52IMeVwEf4lcFBK1dmfhXd2tnEd_lDQTmQaNp8aalA1lumuFsthQ=w2232-h1488-no"
+        <img class="img5" onmouseover="golgi()" onmouseout="out()" src="https://lh3.googleusercontent.com/dqoWPm5oUJBa2lKf566o9xgbcoFvdy4QjuakzPy5QfyZOIWmEwNFegH7VsVIZwrYr83iYk7EzdmQvttmzpqvqQ8EzXz65NudqdWxuA47R1B9YZfomgyTY9xVNtShhMT_2NFqYgfFVCYowDnlFrSZmiyBwTCLaIgQqyuzQ3ormHYo2AShtAzEyR1gF8lOUqUoeJ4nVAoK_p8-D-AJV9Cdvfxj7qIDx6PwkN3HdjuQnvb6uzMYRI8KWYvULbOK8bx6RkyDpYXNQja1z9yQMhzqFQ-CMYBi3RPuTYeV4Ymf7S4OSTtrnDkTS6cNNjDdKPFykATgE9wj_8bv46hQtzErYkTudOWmeBWs2ToPlyegIQTyubmt7AAplU4W3Mx8cgPpGDojGhPPfL-tXRW0cBz-aDk-oWFhM93KMDhfxoZrdFAJ1MAGaugTcWKGori8JZ-GLhjhRNyEMq-43b79yMMDN2JsWoPZ8NmL5nSCrWk06WlmBnz_aq-PXXqjxXmeCQbGtHYRhwOP_nlL7hTTBEip7LE2dzVxHwhsLKGYAWl1_yp_f7-_fMdqYJNcpgnwR3TuOpRjN61VQwV52IMeVwEf4lcFBK1dmfhXd2tnEd_lDQTmQaNp8aalA1lumuFsthQ=w2232-h1488-no"
             height="150" length="150"/></a>
         <a href="https://stackoverflow.com/questions/10180791/how-to-make-text-appear-on-top-of-the-image-when-hovering">
-        <img class="img6" src="https://lh3.googleusercontent.com/JCFOejC6AZ1XZGuHp98ARxYqRNP3Oy-oeH09Tj16tzAACyL-4FUpuHBW6F1AiycYICmEyh7xS9UVM8_JYDL_K2ueleriuw3GMZYi6Jfu-DqwiP8KaliGh6ozTMotqKRoqGMevvM6cuEMjQnL8HDRmBpX5RlMbI-vAli4HX7lO55Q58fleoDEeWRyhpakw5QxMMoets2TMVNeWv4FraKiPt12T1_7Ks2McHQj6bdJ9Mz0FyHpRrl7CLcjf6EuXoiM7Sq3AIJXOfv_HDUA3Dj77l9fhYRWLDfRPHIKb9VCYyheIjueg3Wc9cw7zj0I6JLWnLatwbN4y6r9L5uFSIc7VI9euCNDyk7P6T-lSq4q2u0-DGO0xLLRSN9AsGjFSj0pANKnKRmtgn7_az3tAy7Ktzh1r0UVYnhLkfPHsrVCDK9hi9YjHC436jCmKMa7IwRQIW8gKLaM9zv09SElz8F9ePslCpfgTTNUG-nwJLIcQkXmeWGumRNDDB7URE_D6sPIzhMyuNJEwmfsyEZ_0RBVc4OXViPvCeZ-4AkD96TdBkQg_gjyA2_QvdQ8mYA8gU9Gq2KPRgUAH27kUcLoezCJ6D2_wmZwuz6CJFE_BMEGairD1snxp89sWfohIxHaUsU=w2232-h1424-no"
+        <img class="img6" onmouseover="vesicle()" onmouseout="out()" src="https://lh3.googleusercontent.com/JCFOejC6AZ1XZGuHp98ARxYqRNP3Oy-oeH09Tj16tzAACyL-4FUpuHBW6F1AiycYICmEyh7xS9UVM8_JYDL_K2ueleriuw3GMZYi6Jfu-DqwiP8KaliGh6ozTMotqKRoqGMevvM6cuEMjQnL8HDRmBpX5RlMbI-vAli4HX7lO55Q58fleoDEeWRyhpakw5QxMMoets2TMVNeWv4FraKiPt12T1_7Ks2McHQj6bdJ9Mz0FyHpRrl7CLcjf6EuXoiM7Sq3AIJXOfv_HDUA3Dj77l9fhYRWLDfRPHIKb9VCYyheIjueg3Wc9cw7zj0I6JLWnLatwbN4y6r9L5uFSIc7VI9euCNDyk7P6T-lSq4q2u0-DGO0xLLRSN9AsGjFSj0pANKnKRmtgn7_az3tAy7Ktzh1r0UVYnhLkfPHsrVCDK9hi9YjHC436jCmKMa7IwRQIW8gKLaM9zv09SElz8F9ePslCpfgTTNUG-nwJLIcQkXmeWGumRNDDB7URE_D6sPIzhMyuNJEwmfsyEZ_0RBVc4OXViPvCeZ-4AkD96TdBkQg_gjyA2_QvdQ8mYA8gU9Gq2KPRgUAH27kUcLoezCJ6D2_wmZwuz6CJFE_BMEGairD1snxp89sWfohIxHaUsU=w2232-h1424-no"
             height="80" length="80"/></a>
         </div>
         
-        <div>
-        <p class="description">
-            
-        </p>    
-        </div>
+        <div id="displaytitle"></div>
     </body>
-</html>
+    
+</html> 
