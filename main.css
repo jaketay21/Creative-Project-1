@@ -12,14 +12,22 @@ header{
     text-align: center; 
 }
 
-img:hover {-webkit-filter: brightness(150%); }
+h3 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+
 
 .img1 {
     position: absolute;
     display: block;
-
     left: 160px;
     z-index: 1;
+    
 }
 
 .img2 {
@@ -72,4 +80,7 @@ img:hover {-webkit-filter: brightness(150%); }
     margin-right: auto;
     width: 50%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac7ac1161893f2cb70246252e8f1dc3289a8f07b
