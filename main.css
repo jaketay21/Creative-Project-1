@@ -2,6 +2,7 @@ body{
 
 background-color: lightblue;
 text-align: center;
+color: white;
 }
 
 
@@ -71,3 +72,4 @@ img:hover {-webkit-filter: brightness(150%); }
     margin-right: auto;
     width: 50%;
 }
+
