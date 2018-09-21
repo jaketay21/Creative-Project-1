@@ -11,14 +11,22 @@ header{
     text-align: center; 
 }
 
-img:hover {-webkit-filter: brightness(150%); }
+h3 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+
 
 .img1 {
     position: absolute;
     display: block;
-
     left: 160px;
     z-index: 1;
+    
 }
 
 .img2 {
